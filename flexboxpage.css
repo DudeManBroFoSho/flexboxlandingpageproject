@@ -1,9 +1,32 @@
 .headersection {
     display: flex;
-    padding: 200px;
+    background-color: #1f2937;
+    height: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-direction: row;
+    align-items: center;
 }
 
-.headerlogo div{
-    font: Hero Main;
-     ;
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-style: bold;
+}
+
+.bubble {
+    flex: auto;
+}
+
+.headerlink {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 24px;
+    flex-direction: row;
+    padding-left: 250px;
+}
+
+.headerlink.text{
+    
 }
