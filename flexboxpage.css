@@ -1,0 +1,9 @@
+.headersection {
+    display: flex;
+    padding: 200px;
+}
+
+.headerlogo div{
+    font: Hero Main;
+     ;
+}
