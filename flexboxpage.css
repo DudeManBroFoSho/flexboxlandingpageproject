@@ -6,7 +6,8 @@
     padding-right: 200px;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
+
 }
 
 .headerlogo {
@@ -34,16 +35,19 @@
 }
 
 .introduction {
-    display: flex;
-    flex-direction: row;
     font-size: 48px;
     color: #f9faf8;
-    padding-right: 300px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
 }
 
 .introchild {
     color: #e5e7eb;
     font-size: 18px;
+    
 }
 
 .signupbutton {
@@ -51,7 +55,10 @@
 }
 
 .placeholderimage {
-    background: #e5e7eb;
+    background: #94979c;
     color: #f9faf8;
     font-size: 18px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
