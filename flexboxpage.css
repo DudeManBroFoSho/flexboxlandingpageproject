@@ -6,7 +6,7 @@
     padding-right: 200px;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
+    justify-content: space-evenly;
 
 }
 
@@ -18,11 +18,6 @@
 
 .bubble {
     flex: auto;
-}
-
-.break {
-    flex-basis: 100%;
-    height: 0;
 }
 
 .headerlink {
@@ -51,7 +46,11 @@
 }
 
 .signupbutton {
-
+    font-size:12px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    flex-basis: 100px;
 }
 
 .placeholderimage {
@@ -59,6 +58,6 @@
     color: #f9faf8;
     font-size: 18px;
     text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 75px;
+    padding-left: 100px;
 }
